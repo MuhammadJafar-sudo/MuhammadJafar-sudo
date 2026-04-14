@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="Muhammad Jafar — Full-Stack Developer in NRW, Germany">
+  <defs>
+    <radialGradient id="glowTop" cx="50%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#e8b34a" stop-opacity="0.20"/>
+      <stop offset="55%" stop-color="#e8b34a" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#e8b34a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBottom" cx="15%" cy="110%" r="55%">
+      <stop offset="0%" stop-color="#b8862c" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#b8862c" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="rules" width="96" height="96" patternUnits="userSpaceOnUse">
+      <path d="M 96 0 L 0 0" fill="none" stroke="#26231d" stroke-width="0.6"/>
+    </pattern>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="260" fill="#0b0a08"/>
+  <rect width="1200" height="260" fill="url(#rules)" opacity="0.55"/>
+  <rect width="1200" height="260" fill="url(#glowTop)"/>
+  <rect width="1200" height="260" fill="url(#glowBottom)"/>
+  <rect width="1200" height="260" filter="url(#grain)" opacity="0.5"/>
+
+  <!-- top rule line -->
+  <line x1="60" y1="44" x2="1140" y2="44" stroke="#26231d" stroke-width="1"/>
+
+  <!-- top meta row -->
+  <text x="60" y="34" fill="#807866" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2.4" font-weight="500">§ 01 — PORTFOLIO · 2026</text>
+  <g transform="translate(1140 34)" text-anchor="end">
+    <text fill="#807866" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2.4" font-weight="500">
+      <tspan fill="#e8b34a">●</tspan><tspan dx="6" fill="#ede4cf">AVAILABLE FOR MID-LEVEL ROLES</tspan>
+    </text>
+  </g>
+
+  <!-- Name - serif italic -->
+  <text x="600" y="150" text-anchor="middle" fill="#ede4cf"
+        font-family="Georgia, 'Times New Roman', ui-serif, serif"
+        font-size="72" font-style="italic" font-weight="400" letter-spacing="-2.5">Muhammad Jafar,</text>
+
+  <!-- Subtitle - serif upright dim -->
+  <text x="600" y="188" text-anchor="middle" fill="#b9b0a0"
+        font-family="Georgia, 'Times New Roman', ui-serif, serif"
+        font-size="22" font-weight="400" letter-spacing="-0.3">a full-stack developer shipping calm, fast software from NRW.</text>
+
+  <!-- bottom rule line -->
+  <line x1="60" y1="220" x2="1140" y2="220" stroke="#26231d" stroke-width="1"/>
+
+  <!-- bottom meta row -->
+  <text x="60" y="244" fill="#807866" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2.4" font-weight="500">GELSENKIRCHEN · RUHRGEBIET · DE</text>
+  <text x="600" y="244" text-anchor="middle" fill="#807866" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2.4" font-weight="500">NEXT.JS · TYPESCRIPT · POSTGRES</text>
+  <text x="1140" y="244" text-anchor="end" fill="#807866" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2.4" font-weight="500">HELLO@MUHAMMADJAFAR.DE</text>
+</svg>
